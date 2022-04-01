@@ -29,6 +29,7 @@ h1{
 
 .main-page-banner{
     width: 100vw;
+    
     background-image: url("../res/img/banner.jpg");
     min-height: 500px; 
     background-attachment: fixed;
@@ -42,7 +43,7 @@ h1{
 .main-page-banner-text{
     position: absolute;
     font-family: 'Pattaya', sans-serif;
-    font-size: 10vw;
+    font-size: calc(10vw + 5vh);
     font-weight: 100;
     color: #0066d2;
 

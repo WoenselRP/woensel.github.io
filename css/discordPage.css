@@ -1,21 +1,34 @@
 .discord-grid{
-    margin: 10px;
+    margin: 20px;
 
     display: grid;
     gap: 1rem;
 
-    grid-template-columns: repeat(auto-fill,minmax(260px, 1fr) );
+    grid-template-columns: repeat(auto-fit,minmax(240px, 1fr) );
 
 
     text-align: center;
 }
+.discord-servers{
 
+    width: 70%;
+    margin: 0 auto;
+}
 
 .discord-container{
     
     background-color: rgb(64, 64, 64);
     border-radius: 30px;
     height: 100%;
+
+    transition: 500ms;
+}
+.discord-container:hover{
+    transition-timing-function: ease;
+
+    transform: scale(1.05);
+    background-color:rgb(52, 52, 52) ;
+    
 }
 .discord-img{
     padding-bottom: 10px;
@@ -23,9 +36,12 @@
     border-radius: 40px;
 }
 .discord-join-btn{
+
+
     padding: 0px;
     font-size: 2rem;
-    background-color: rgb(129, 234, 129);
+    background-color: #3ba55d;
+    color: white;
 
     border: 0;
     height: 10%;
@@ -42,4 +58,10 @@
     margin-top: 10px;
     margin-bottom: 10px;
 
+    transition: 500ms;
+}
+.discord-join-btn:hover{
+    transition-timing-function: ease;
+
+    background-color: #2a7943;
 }
