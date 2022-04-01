@@ -1,5 +1,12 @@
 .discord-grid{
+
+    
     margin: 20px;
+
+    justify-content: center;
+    align-content: center;
+    
+
 
     display: grid;
     gap: 1rem;

@@ -1,0 +1,71 @@
+.donaties-grid{
+    margin: 20px;
+
+    justify-content: center;
+    align-content: center;
+    
+    
+
+    display: grid;
+    gap: 1rem;
+
+    grid-template-columns: repeat(auto-fit,minmax(450px, 1fr) );
+
+}
+.donaties{
+    width: 90%;
+    margin: 0 auto;
+}
+.donatie-container{
+    background-color:rgb(64, 64, 64) ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+    height: 100%;
+
+    border-radius: 30px;
+
+
+    transition-duration: 150ms;
+}
+.donatie-container:hover{
+    transition-timing-function: ease;
+    transform:scale(1.1);
+}
+
+
+.car-img{
+
+    border-radius: 25px;
+    width: 97%;
+    height: 95%;
+    
+}
+.donatie-container:hover .car-img{
+    filter: brightness(1.7);
+}
+
+.car-info{
+    font-size: 2rem;
+    
+
+    position: absolute;
+    top: 0;
+    margin-top: 10%;
+    display: none;
+    
+}
+
+
+
+
+
+
+.donatie-container:hover .car-info{
+    display: block;
+}
+
