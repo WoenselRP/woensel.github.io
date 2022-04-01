@@ -1,0 +1,56 @@
+:root{
+    --underline-color:#0066d2;
+}
+
+
+h1{
+    font-size: 3rem;
+    font-weight: 100;
+    color: var(--text-color);
+}
+
+.underline{
+    display: inline-block;
+    position: relative;
+    font-family: 'Rammetto One', cursive;
+}
+
+.underline::after{
+
+    content: "";
+    height: 6px;
+    width: 110%;
+    background-color:var(--underline-color) ;
+    position: absolute;
+    left: 0;
+    bottom: -0.3rem;
+    left: calc(50% - 55%);
+}
+
+.main-page-banner{
+    width: 100vw;
+    background-image: url("../res/img/banner.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-page-banner-text{
+    position: absolute;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 10vw;
+    font-weight: 100;
+    color: #0066d2;
+
+
+}
+.main-page-text{
+    margin: 1rem;
+}
+.centered{
+    text-align: center;
+}
