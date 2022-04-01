@@ -44,6 +44,7 @@
 }
 .discord-join-btn{
 
+    
 
     padding: 0px;
     font-size: 2rem;
@@ -63,12 +64,17 @@
 
 
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 
     transition: 500ms;
+
 }
 .discord-join-btn:hover{
     transition-timing-function: ease;
 
     background-color: #2a7943;
+}
+
+.discord-info{
+    text-align: center;
 }
