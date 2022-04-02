@@ -25,47 +25,106 @@
 
 
 
-    height: 100%;
+    width: 100%;
 
-    border-radius: 30px;
-
+    border-radius: 20px;
+    position: relative;
 
     transition-duration: 150ms;
 }
 .donatie-container:hover{
     transition-timing-function: ease;
-    transform:scale(1.1);
 }
 
 
 .car-img{
-
-    border-radius: 25px;
-    width: 97%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
     
+    transition-duration: 150ms;
+    border-radius: 20px;
+
 }
+
 .donatie-container:hover .car-img{
+
+    transition-timing-function: ease;
     filter: brightness(1.7);
+
+}
+
+
+.car-name{
+    position: absolute;
+    top: 10%;
+    font-size: 2rem;
+
+    opacity: 0;
+
+    transition-delay: 200ms;
+    transition-duration: 250ms;
+}
+
+.donatie-container:hover .car-name{
+    transition-timing-function: ease-in;
+    opacity: 1;
 }
 
 .car-info{
-    font-size: 2rem;
-    
+    opacity: 0;
+
+
+
+    z-index: 1;
+
+    height: 100%;
+    width: 100%;
 
     position: absolute;
-    top: 0;
-    margin-top: 10%;
-    display: none;
-    
+
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center; 
+
+    transition-duration: 200ms;
+
 }
-
-
-
 
 
 
 .donatie-container:hover .car-info{
-    display: block;
+    transition-delay: 500ms;
+    transition-duration: 300ms;
+
+
+    transition-timing-function: ease;
+    opacity: 1;
+
 }
 
+.car-buy-button{
+    bottom: 5%;
+
+    font-size: 1.2rem;
+
+    color: white;
+
+    border: 0;
+    
+    cursor: pointer;
+
+    height: 12%;
+    width: 20%;
+
+    border-radius: 20px;
+
+    position: absolute;
+
+    background-color: #3ba55d;
+
+    transition-duration: 500ms;
+}
+.car-buy-button:hover{
+    transition-timing-function: ease;
+    background-color: #2a7943;
+}
