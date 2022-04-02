@@ -1,23 +1,42 @@
-.donaties-grid{
-    margin: 20px;
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+
+
+.filled{
+    height: 100%;
+    width: 100%;
+}
+
+.donaties-car-grid{
+    margin-top: 10px;
+    padding-bottom: 15px;
+
+    margin: 15px;
 
     justify-content: center;
     align-content: center;
-    
-    
+
 
     display: grid;
     gap: 1rem;
 
-    grid-template-columns: repeat(auto-fit,minmax(450px, 1fr) );
+    grid-template-columns: repeat(auto-fit,minmax(450px, 1fr));
 
 }
 .donaties{
     width: 90%;
     margin: 0 auto;
 }
-.donatie-container{
-    background-color:rgb(64, 64, 64) ;
+.donatie-car-container{
+    cursor: default;
+
+
+    
+    color: var(--text-color);
+
+    background-color:rgb(75, 74, 74) ;
 
     display: flex;
     justify-content: center;
@@ -30,26 +49,29 @@
     border-radius: 20px;
     position: relative;
 
-    transition-duration: 150ms;
+
 }
-.donatie-container:hover{
-    transition-timing-function: ease;
-}
+
 
 
 .car-img{
     width: 100%;
     height: 100%;
     
-    transition-duration: 150ms;
+
     border-radius: 20px;
+
+    filter: brightness(1.5);
+
 
 }
 
-.donatie-container:hover .car-img{
+.donatie-car-container:hover .car-img{
+
 
     transition-timing-function: ease;
-    filter: brightness(1.7);
+
+    filter: blur(2px);
 
 }
 
@@ -61,11 +83,10 @@
 
     opacity: 0;
 
-    transition-delay: 200ms;
-    transition-duration: 250ms;
+    transition-duration: 200ms;
 }
 
-.donatie-container:hover .car-name{
+.donatie-car-container:hover .car-name{
     transition-timing-function: ease-in;
     opacity: 1;
 }
@@ -73,12 +94,12 @@
 .car-info{
     opacity: 0;
 
-
+    width: 100%;
+    height: 100%;
 
     z-index: 1;
 
-    height: 100%;
-    width: 100%;
+
 
     position: absolute;
 
@@ -92,8 +113,8 @@
 
 
 
-.donatie-container:hover .car-info{
-    transition-delay: 500ms;
+
+.donatie-car-container:hover .car-info{
     transition-duration: 300ms;
 
 
@@ -127,4 +148,77 @@
 .car-buy-button:hover{
     transition-timing-function: ease;
     background-color: #2a7943;
+}
+.car-donaties{
+    border-radius: 20px;
+
+    margin-top: 20px;
+    background-color: rgb(64, 64, 64);
+
+    text-align: center;
+}
+
+.kenteken-donaties{
+    border-radius: 20px;
+
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #3b3b3b;
+
+    text-align: center;
+}
+.donaties-kenteken-grid{
+    margin-top: 10px;
+
+    justify-content: center;
+    align-content: center;
+
+
+    display: grid;
+    gap: 1rem;
+
+    grid-template-columns: repeat(auto-fit,minmax(350px, 1fr) );
+
+}
+
+
+.donatie-kenteken-container{
+
+    
+    cursor: pointer;
+
+    border-radius: 20px;
+
+    font-size: 1.5rem;
+
+    position: relative;
+
+    color: var(--text-color);
+    text-decoration: none;
+    background-color:rgb(75, 74, 74) ;
+
+    transition-duration: 200ms;
+}
+.donatie-kenteken-container:hover{
+    background-color: rgb(52, 52, 52);
+}
+.price{
+    font-size: 1.2rem;
+    color: #2a7943;
+}
+
+@media only screen and (max-width: 600px) {
+    .donaties-car-grid{
+        grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    }
+    .donaties-kenteken-grid{
+        grid-template-columns: repeat(auto-fit,minmax(300px, 1fr) );
+    }
+    .donaties{
+        width: 100%;
+    }
+    .donatie-car-container .car-name{
+        opacity: 1;
+    }
+
 }
