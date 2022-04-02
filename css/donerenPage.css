@@ -9,7 +9,7 @@ h1,h2,h3,h4,h5,h6{
     width: 100%;
 }
 
-.donaties-car-grid{
+.doneren-car-grid{
     margin-top: 10px;
     padding-bottom: 15px;
 
@@ -25,7 +25,7 @@ h1,h2,h3,h4,h5,h6{
     grid-template-columns: repeat(auto-fit,minmax(450px, 1fr));
 
 }
-.donaties{
+.doneren{
     width: 90%;
     margin: 0 auto;
 }
@@ -149,7 +149,7 @@ h1,h2,h3,h4,h5,h6{
     transition-timing-function: ease;
     background-color: #2a7943;
 }
-.car-donaties{
+.car-doneren{
     border-radius: 20px;
 
     margin-top: 20px;
@@ -158,7 +158,7 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
 }
 
-.kenteken-donaties{
+.kenteken-doneren{
     border-radius: 20px;
 
     margin-top: 20px;
@@ -167,7 +167,7 @@ h1,h2,h3,h4,h5,h6{
 
     text-align: center;
 }
-.donaties-kenteken-grid{
+.doneren-kenteken-grid{
     margin-top: 10px;
 
     justify-content: center;
@@ -208,13 +208,13 @@ h1,h2,h3,h4,h5,h6{
 }
 
 @media only screen and (max-width: 600px) {
-    .donaties-car-grid{
+    .doneren-car-grid{
         grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
     }
-    .donaties-kenteken-grid{
+    .doneren-kenteken-grid{
         grid-template-columns: repeat(auto-fit,minmax(300px, 1fr) );
     }
-    .donaties{
+    .doneren{
         width: 100%;
     }
     .donatie-car-container .car-name{
