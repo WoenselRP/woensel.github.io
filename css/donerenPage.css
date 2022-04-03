@@ -230,5 +230,13 @@ h1,h2,h3,h4,h5,h6{
     .donatie-car-container .car-name{
         opacity: 1;
     }
+    .car-info{
+        opacity: 1;
+        
+
+    }
+    .car-buy-button{
+        font-size: 1rem;
+    }
 
 }
