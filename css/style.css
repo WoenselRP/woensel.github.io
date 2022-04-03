@@ -72,6 +72,11 @@ body{
 .nav-logo{
     filter: brightness(0) invert(1);
     height:90%;
+    transition-duration: 500ms;
 }
+.nav-logo:hover{
 
+    transition-timing-function: ease;
+    filter: brightness(0) invert(0); 
+}
 

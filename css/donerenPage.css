@@ -25,7 +25,7 @@ h1,h2,h3,h4,h5,h6{
     grid-template-columns: repeat(auto-fit,minmax(450px, 1fr));
 
 }
-.doneren{
+.doneren-body{
     width: 90%;
     margin: 0 auto;
 }
@@ -49,7 +49,7 @@ h1,h2,h3,h4,h5,h6{
 
     width: 100%;
 
-    border-radius: 20px;
+    border-radius: 10px;
     position: relative;
 
     
@@ -71,7 +71,7 @@ h1,h2,h3,h4,h5,h6{
     height: 100%;
     
 
-    border-radius: 20px;
+    border-radius: 10px;
 
     filter: brightness(1.5);
 
@@ -161,17 +161,8 @@ h1,h2,h3,h4,h5,h6{
     transition-timing-function: ease;
     background-color: #2a7943;
 }
-.car-doneren{
-    border-radius: 20px;
+.doneren{
 
-    margin-top: 20px;
-    background-color: rgb(64, 64, 64);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-    text-align: center;
-}
-
-.kenteken-doneren{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     border-radius: 20px;
@@ -182,7 +173,9 @@ h1,h2,h3,h4,h5,h6{
 
     text-align: center;
 }
-.doneren-kenteken-grid{
+
+
+.doneren-grid{
     margin-top: 10px;
 
     justify-content: center;
@@ -225,11 +218,13 @@ h1,h2,h3,h4,h5,h6{
 @media only screen and (max-width: 600px) {
     .doneren-car-grid{
         grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+        margin: 0;
     }
-    .doneren-kenteken-grid{
+    .doneren-grid{
         grid-template-columns: repeat(auto-fit,minmax(300px, 1fr) );
     }
-    .doneren{
+    .doneren-body{
+
         width: 100%;
     }
     .donatie-car-container .car-name{
