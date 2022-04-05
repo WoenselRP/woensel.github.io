@@ -96,6 +96,14 @@ h1,h2,h3,h4,h5,h6{
     filter: blur(2px);
 
 }
+.donatie-car-container:hover .boat-img{
+
+
+    transition-timing-function: ease;
+
+    filter: blur(2px);
+
+}
 
 
 .car-name{
