@@ -51,6 +51,9 @@ body{
     padding-left: 5vw;
 }
 .nav-item{
+    font-family: 'Fredoka One', cursive;
+
+
     width: 15rem;
     transition: 250ms;
 }
