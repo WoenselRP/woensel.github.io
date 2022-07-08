@@ -1,17 +1,23 @@
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
-b{
+
+b {
     color: rgb(133, 178, 236);
 }
 
-a{
-    color: rgb(0,96,224);
-    text-decoration:underline;
+a {
+    color: rgb(0, 96, 224);
+    text-decoration: underline;
 }
 
-.payment-instructions{
-    background-color: rgb(50, 50, 50) ;
+.payment-instructions {
+    background-color: rgb(50, 50, 50);
     border-radius: 20px;
     margin-left: 5%;
     margin-right: 5%;
@@ -23,26 +29,24 @@ a{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-
-.instruction-title{
+.instruction-title {
     text-align: center;
 }
 
-.subtext{
+.subtext {
     text-align: center;
     font-size: 1.5rem;
 }
-.instruction-header{
+
+.instruction-header {
     border-radius: 20px;
-    background-color: rgb(61, 61, 61) ;
+    background-color: rgb(61, 61, 61);
     padding-bottom: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.instruction-body{
+.instruction-body {
     margin-left: 20px;
     margin-right: 20px;
-        
-}
 
+}
