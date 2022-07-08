@@ -1,51 +1,52 @@
-:root{
-    --underline-color:#0066d2;
+:root {
+    --underline-color: rgb(146, 59, 62);
 }
 
 
-h1{
+h1 {
     font-size: 3rem;
     font-weight: 100;
     color: var(--text-color);
 }
 
-.underline{
+.underline {
     display: inline-block;
     position: relative;
     font-family: 'Rammetto One', cursive;
 }
 
-.underline::after{
+.underline::after {
 
     content: "";
     height: 6px;
     width: 110%;
-    background-color:var(--underline-color) ;
+    background-color: var(--underline-color);
     position: absolute;
     left: 0;
     bottom: -0.3rem;
     left: calc(50% - 55%);
 }
 
-.main-page-banner{
+.main-page-banner {
     width: 100vw;
 
 
 
 }
 
-.main-page-text{
+.main-page-text {
     text-align: center;
     margin: 1rem;
 }
-.centered{
+
+.centered {
     text-align: center;
 }
 
 @media only screen and (max-width: 800px) {
-    .main-page-banner{
+    .main-page-banner {
         display: none;
-    
+
     }
-    
+
 }
